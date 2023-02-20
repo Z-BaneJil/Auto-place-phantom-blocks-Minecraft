@@ -1,0 +1,10 @@
+{
+  "category.autophantomblocks.main": "Auto place phantom blocks",
+  "key.autophantomblocks.paste_block": "Place phantom block",
+
+  "itemGroup.autophantomblocks.phantom_group": "Phantom group",
+  "item.autophantomblocks.phantom_item": "Phantom item",
+  "block.autophantomblocks.phantom_block": "Phantom block",
+
+  "autophantomblocks.text.block_placed": "§aPhantom block placed: §6"
+}

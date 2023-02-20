@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "autophantomblocks:block/phantom_block"
+    }
+  }
+}

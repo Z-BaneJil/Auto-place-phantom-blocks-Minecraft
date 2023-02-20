@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "autophantomblocks:phantom_item"
+    }
+  },
+  "result": {
+    "item": "autophantomblocks:phantom_block",
+    "count": 1
+  }
+}

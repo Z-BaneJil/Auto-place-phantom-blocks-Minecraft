@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "brewing",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "autophantomblocks:phantom_item",
+    "count": 4
+  }
+}

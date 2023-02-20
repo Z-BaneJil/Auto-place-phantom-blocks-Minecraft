@@ -1,0 +1,10 @@
+{
+  "category.autophantomblocks.main": "Авто установка фантомных блоков",
+  "key.autophantomblocks.paste_block": "Поставить фантомный блок",
+
+  "itemGroup.autophantomblocks.phantom_group": "Фантомная группа",
+  "item.autophantomblocks.phantom_item": "Фантомный предмет",
+  "block.autophantomblocks.phantom_block": "Фантомный блок",
+
+  "autophantomblocks.text.block_placed": "§aФантомный блок поставлен: §6"
+}
