@@ -1,0 +1,10 @@
+{
+  "category.autoplacephantomblocks.main": "Авто установка фантомных блоков",
+  "key.autoplacephantomblocks.paste_block": "Поставить фантомный блок",
+
+  "itemGroup.autoplacephantomblocks.chromakey_group": "Хромакей",
+  "item.autoplacephantomblocks.chromakey_canvas": "Хромакейное полотно",
+  "block.autoplacephantomblocks.chromakey": "Хромакей",
+
+  "text.autoplacephantomblocks.block_placed": "§fФантомный блок поставлен: §6"
+}

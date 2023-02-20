@@ -1,0 +1,10 @@
+{
+  "category.autoplacephantomblocks.main": "Auto place phantom blocks",
+  "key.autoplacephantomblocks.paste_block": "Place phantom block",
+
+  "itemGroup.autoplacephantomblocks.chromakey_group": "Chromakey",
+  "item.autoplacephantomblocks.chromakey_canvas": "Chromakey canvas",
+  "block.autoplacephantomblocks.chromakey": "Chromakey",
+
+  "text.autoplacephantomblocks.block_placed": "§fPhantom block placed: §6"
+}

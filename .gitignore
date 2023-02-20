@@ -1,0 +1,13 @@
+# gradle
+.gradle/
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# fabric
+
+run/

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "autoplacephantomblocks:chromakey_canvas"
+    }
+  },
+  "result": {
+    "item": "autoplacephantomblocks:chromakey",
+    "count": 1
+  }
+}
