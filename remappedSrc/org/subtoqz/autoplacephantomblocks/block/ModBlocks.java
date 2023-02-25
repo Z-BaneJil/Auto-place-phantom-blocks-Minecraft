@@ -1,9 +1,7 @@
 package org.subtoqz.autoplacephantomblocks.block;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
+import net.minecraft.util.registry.Registry;
 import org.subtoqz.autoplacephantomblocks.AutoPlacePhantomBlocks;
 import org.subtoqz.autoplacephantomblocks.item.ModItemGroups;
 import org.subtoqz.autoplacephantomblocks.item.ModItems;
@@ -18,13 +16,13 @@ public class ModBlocks {
     public static final Block FIRST_BLOCK = registerBlock("chromakey", new Block(FabricBlockSettings.of(Material.WOOL).strength(1.0f).luminance(15)), ModItemGroups.CHROMAKEY_GROUP);
 
     public static Block registerBlock(String id, Block block) {
-        return Registry.register(Registries.BLOCK, new Identifier(AutoPlacePhantomBlocks.MOD_ID, id), block);
+        return Registry.register(Registry.BLOCK, new Identifier(AutoPlacePhantomBlocks.MOD_ID, id), block);
     }
 
     public static Block registerBlock(String id, Block block, ItemGroup itemGroup) {
-        ModItems.registerItem(id, new BlockItem(block, new FabricItemSettings()), itemGroup);
+        ModItems.registerItem(id, new BlockItem(block, new FabricItemSettings().group(itemGroup)));
 
-        return Registry.register(Registries.BLOCK, new Identifier(AutoPlacePhantomBlocks.MOD_ID, id), block);
+        return Registry.register(Registry.BLOCK, new Identifier(AutoPlacePhantomBlocks.MOD_ID, id), block);
     }
 
     public static void register() {
