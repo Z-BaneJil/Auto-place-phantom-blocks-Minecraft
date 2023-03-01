@@ -13,13 +13,23 @@ public class AutoPlacePhantomBlocksClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
-            if (ModKeyBindings.PASTE_BLOCK.isPressed()) {
+            if (ModKeyBindings.PLACE_BLOCK.isPressed()) {
                 Vec3d playerPos = client.player.getPos();
                 BlockPos blockPos = new BlockPos(playerPos.x, playerPos.y - 1, playerPos.z);
                 BlockState blockState = ModBlocks.FIRST_BLOCK.getDefaultState();
                 client.world.setBlockState(blockPos, blockState);
                 String msg = Text.translatable("text.autoplacephantomblocks.block_placed").getString() + blockPos.getX() + " " + blockPos.getY() + " " + blockPos.getZ();
                 client.player.sendMessage(Text.of(msg), true);
+                AutoPlacePhantomBlocks.LOGGER.info("Ya huilo s chitami");
+            }
+            if (ModKeyBindings.PLACE_BLOCK2.isPressed()) {
+                BlockState blockState = ModBlocks.FIRST_BLOCK.getDefaultState();
+                Vec3d raycastPos = client.player.raycast(3, 1, false).getPos();
+                BlockPos blockPos = new BlockPos(raycastPos);
+                client.world.setBlockState(blockPos, blockState);
+                String msg = Text.translatable("text.autoplacephantomblocks.block_placed").getString() + blockPos.getX() + " " + blockPos.getY() + " " + blockPos.getZ();
+                client.player.sendMessage(Text.of(msg), true);
+                AutoPlacePhantomBlocks.LOGGER.info("Ya huilo s chitami");
             }
         });
     }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "autoplacephantomblocks",
-  "version": "0.1.4-beta-1.19.3-fabric",
+  "version": "0.2.0-beta-1.19.3-fabric",
 
   "name": "Auto place phantom blocks",
   "description": "It's just text. There is nothing here, do not look for a catch.",

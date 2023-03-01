@@ -1,6 +1,7 @@
 {
   "category.autoplacephantomblocks.main": "Авто установка фантомных блоков",
-  "key.autoplacephantomblocks.paste_block": "Поставить фантомный блок",
+  "key.autoplacephantomblocks.place_block": "Поставить фантомный блок",
+  "key.autoplacephantomblocks.place_block2": "Поставить фантомный блок перед игроком",
 
   "itemGroup.autoplacephantomblocks.chromakey_group": "Хромакей",
   "item.autoplacephantomblocks.chromakey_canvas": "Хромакейное полотно",

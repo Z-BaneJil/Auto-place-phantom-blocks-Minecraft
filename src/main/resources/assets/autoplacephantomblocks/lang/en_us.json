@@ -1,6 +1,7 @@
 {
   "category.autoplacephantomblocks.main": "Auto place phantom blocks",
-  "key.autoplacephantomblocks.paste_block": "Place phantom block",
+  "key.autoplacephantomblocks.place_block": "Place phantom block",
+  "key.autoplacephantomblocks.place_block2": "Place phantom block forward player",
 
   "itemGroup.autoplacephantomblocks.chromakey_group": "Chromakey",
   "item.autoplacephantomblocks.chromakey_canvas": "Chromakey canvas",

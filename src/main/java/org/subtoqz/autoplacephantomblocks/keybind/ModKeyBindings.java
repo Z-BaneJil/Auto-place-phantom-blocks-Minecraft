@@ -7,10 +7,17 @@ import org.lwjgl.glfw.GLFW;
 import org.subtoqz.autoplacephantomblocks.AutoPlacePhantomBlocks;
 
 public class ModKeyBindings {
-    public static final KeyBinding PASTE_BLOCK = registerKeyBinding(
-            "key.autoplacephantomblocks.paste_block",
-            InputUtil.Type.KEYSYM,
-            GLFW.GLFW_KEY_KP_8,
+    public static final KeyBinding PLACE_BLOCK = registerKeyBinding(
+            "key.autoplacephantomblocks.place_block",
+            InputUtil.Type.MOUSE,
+            GLFW.GLFW_MOUSE_BUTTON_5,
+            "category.autoplacephantomblocks.main"
+    );
+
+    public static final KeyBinding PLACE_BLOCK2 = registerKeyBinding(
+            "key.autoplacephantomblocks.place_block2",
+            InputUtil.Type.MOUSE,
+            GLFW.GLFW_MOUSE_BUTTON_4,
             "category.autoplacephantomblocks.main"
     );
 
